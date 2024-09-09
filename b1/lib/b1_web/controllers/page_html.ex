@@ -7,7 +7,4 @@ defmodule B1Web.PageHTML do
   use B1Web, :html
 
   embed_templates "page_html/*"
-
-  def plural_phrase(1, noun), do: "1 #{noun}"
-  def plural_phrase(n, noun), do: "#{n} #{noun}s"
 end
