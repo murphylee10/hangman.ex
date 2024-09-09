@@ -1,0 +1,13 @@
+<section class="phx-hero">
+  <h1>Welcome to Phoenix!</h1>
+  <p>Peace of mind from prototype to production</p>
+  <p>
+    <%= for i <- 1..5 do %> 
+      <p>Hello <%= i %></p>
+    <% end %>
+  </p>
+
+  <h1>
+    You have <%= plural_phrase(2, "egg") %>
+  </h1>
+</section>
