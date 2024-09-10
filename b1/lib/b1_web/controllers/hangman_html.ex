@@ -6,5 +6,7 @@ defmodule B1Web.HangmanHTML do
   """
   use B1Web, :html
 
+  use Phoenix.Component
+
   embed_templates "hangman_html/*"
 end
